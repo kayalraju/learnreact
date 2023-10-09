@@ -21,7 +21,7 @@ function App() {
       </Router> */}
 
 
-      <UserProps name="pritam" email="pritam@gmail.com"/>
+      <UserProps/>
 
     
     </>
