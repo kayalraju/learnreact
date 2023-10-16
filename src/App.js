@@ -6,6 +6,10 @@ import Navbar from './Components/Common/Navbar';
 import PageNotfound from './Pages/PageNotfound';
 import About from './Pages/About';
 import UserProps from './props/UserProps';
+import UserStateHooks1 from './Hooks/useState/UserStateHooks1';
+import StateObject from './Hooks/useState/StateObject';
+import Timer from './Hooks/useEffect/Timer';
+import UserFetchData from './Hooks/useEffect/UserFetchData';
 function App() {
   return (
     <>
@@ -21,9 +25,12 @@ function App() {
       </Router> */}
 
 
-      <UserProps/>
+      {/* <UserProps/> */}
 
-    
+    {/* <UserStateHooks1/> */}
+    {/* <StateObject/> */}
+    {/* <Timer/> */}
+    <UserFetchData/>
     </>
   );
 }
