@@ -10,6 +10,8 @@ import UserStateHooks1 from './Hooks/useState/UserStateHooks1';
 import StateObject from './Hooks/useState/StateObject';
 import Timer from './Hooks/useEffect/Timer';
 import UserFetchData from './Hooks/useEffect/UserFetchData';
+import GetUserData from './Axios/GetUserData';
+import AxiosRoute from './Axios/AxiosRoute';
 function App() {
   return (
     <>
@@ -30,7 +32,8 @@ function App() {
     {/* <UserStateHooks1/> */}
     {/* <StateObject/> */}
     {/* <Timer/> */}
-    <UserFetchData/>
+    {/* <UserFetchData/> */}
+    <AxiosRoute/>
     </>
   );
 }
