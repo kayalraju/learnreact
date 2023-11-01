@@ -12,6 +12,7 @@ import Timer from './Hooks/useEffect/Timer';
 import UserFetchData from './Hooks/useEffect/UserFetchData';
 import GetUserData from './Axios/GetUserData';
 import AxiosRoute from './Axios/AxiosRoute';
+import TestCount from './Hooks/usereducer/TestCount';
 function App() {
   return (
     <>
@@ -33,7 +34,8 @@ function App() {
     {/* <StateObject/> */}
     {/* <Timer/> */}
     {/* <UserFetchData/> */}
-    <AxiosRoute/>
+    {/* <AxiosRoute/> */}
+    <TestCount/>
     </>
   );
 }
