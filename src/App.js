@@ -13,6 +13,9 @@ import UserFetchData from './Hooks/useEffect/UserFetchData';
 import GetUserData from './Axios/GetUserData';
 import AxiosRoute from './Axios/AxiosRoute';
 import TestCount from './Hooks/usereducer/TestCount';
+import GetUser from './Hooks/contex/GetUser';
+import GetContex from './Hooks/contex/notes/GetContex';
+import GetData from './Hooks/contex/GetData';
 function App() {
   return (
     <>
@@ -35,7 +38,13 @@ function App() {
     {/* <Timer/> */}
     {/* <UserFetchData/> */}
     {/* <AxiosRoute/> */}
-    <TestCount/>
+    {/* <TestCount/> */}
+    <GetContex>
+      <GetUser/> 
+      <GetData/>
+    </GetContex>
+      
+
     </>
   );
 }
