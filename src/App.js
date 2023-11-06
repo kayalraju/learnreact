@@ -16,6 +16,7 @@ import TestCount from './Hooks/usereducer/TestCount';
 import GetUser from './Hooks/contex/GetUser';
 import GetContex from './Hooks/contex/notes/GetContex';
 import GetData from './Hooks/contex/GetData';
+import UserForm from './formhandle/UserForm';
 function App() {
   return (
     <>
@@ -39,10 +40,11 @@ function App() {
     {/* <UserFetchData/> */}
     {/* <AxiosRoute/> */}
     {/* <TestCount/> */}
-    <GetContex>
+    {/* <GetContex>
       <GetUser/> 
       <GetData/>
-    </GetContex>
+    </GetContex> */}
+    <UserForm/>
       
 
     </>
