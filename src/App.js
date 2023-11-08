@@ -17,6 +17,8 @@ import GetUser from './Hooks/contex/GetUser';
 import GetContex from './Hooks/contex/notes/GetContex';
 import GetData from './Hooks/contex/GetData';
 import UserForm from './formhandle/UserForm';
+import AddStudent from './formhandle/AddStudent';
+import FetchStudent from './formhandle/FetchStudent';
 function App() {
   return (
     <>
@@ -44,7 +46,9 @@ function App() {
       <GetUser/> 
       <GetData/>
     </GetContex> */}
-    <UserForm/>
+    {/* <UserForm/> */}
+    {/* <AddStudent/> */}
+    <FetchStudent/>
       
 
     </>
