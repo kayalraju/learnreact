@@ -19,6 +19,7 @@ import GetData from './Hooks/contex/GetData';
 import UserForm from './formhandle/UserForm';
 import AddStudent from './formhandle/AddStudent';
 import FetchStudent from './formhandle/FetchStudent';
+import CrudRouting from './crud/CrudRouting';
 function App() {
   return (
     <>
@@ -48,7 +49,8 @@ function App() {
     </GetContex> */}
     {/* <UserForm/> */}
     {/* <AddStudent/> */}
-    <FetchStudent/>
+    {/* <FetchStudent/> */}
+    <CrudRouting/>
       
 
     </>
