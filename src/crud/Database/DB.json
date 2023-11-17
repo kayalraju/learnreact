@@ -1,34 +1,24 @@
 {
   "users": [
     {
-      "name": "raju kayal",
-      "email": "raju@gmail.com",
-      "phone": "99663695630",
-      "password": "78989985",
-      "city": "kolkatajj",
-      "state": "west bengal",
-      "dob": "2022-08-05",
-      "id": 1
-    },
-    {
-      "name": "Pritam",
-      "email": "p@gmail.com",
+      "name": "Raju",
+      "email": "kayalraju003@gmail.com",
       "phone": "08637000230",
       "password": "12345678",
       "city": "kolkata",
       "state": "West Bengal",
-      "dob": "2023-11-09",
-      "id": 2
+      "dob": "2023-11-23",
+      "id": 1
     },
     {
-      "name": "ishita",
-      "email": "ishita@gmail.com",
-      "phone": "1234567789",
-      "password": "12345678",
-      "city": "kolkata",
+      "name": "Raju kayal",
+      "email": "kayalraju003@gmail.com",
+      "phone": "08637000230",
+      "password": "1234567896",
+      "city": "kolkata hh",
       "state": "West Bengal",
-      "dob": "2023-11-10",
-      "id": 3
+      "dob": "2023-11-24",
+      "id": 2
     }
   ]
 }

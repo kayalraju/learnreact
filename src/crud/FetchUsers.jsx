@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { getUser } from './Api'
+import { deleteUser, getUser } from './Api'
 
 const FetchUsers = () => {
   const [user,setUser]=useState([])
@@ -14,7 +14,13 @@ const FetchUsers = () => {
 useEffect(()=>{
   getUsersdata()
 },[])
-console.log(user);
+//console.log(user);
+//for delete data
+const deleteUserData=async(id)=>{
+  //alert('jkgjfghfc')
+  await deleteUser(id)
+  getUsersdata()
+}
   return (
     <>
     <div className="container">
@@ -37,6 +43,7 @@ console.log(user);
     
   </thead>
   <tbody>
+    
     {
       user?.map((item,key)=>{
         return(
@@ -50,7 +57,8 @@ console.log(user);
       <td>{item?.city}</td>
       <td>{item?.state}</td>
       <td>{item?.dob}</td>
-      <td>@mdo</td>
+      <td><Link to={`/edit/${item?.id}`} className='btn btn-success'>Update</Link></td>
+      <td><button type='button' onClick={() => deleteUserData(item?.id)} className='btn btn-danger'>Delete</button></td>
     </tr>
           </>
         )

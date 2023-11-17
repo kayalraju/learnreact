@@ -19,3 +19,34 @@ export const addUser = async(data) => {
         console.log('Error while calling addUser API', error.message)
     }
 }
+
+//get single data
+export const EditUserData = async data => {
+    try {
+        return await axios.get(`${Url}/${data}`)
+    }
+    catch (error) {
+        console.log('Error while calling getUser API', error.message)
+    }
+}
+
+//post updated data
+export const UpdateUserData = async (data, id) => {
+    try {
+        return await axios.put(`${Url}/${id}`, data)
+    }
+    catch (error) {
+        console.log('Error while calling editUser API', error.message)
+    }
+}
+
+
+//for delete data
+export const deleteUser = async id => {
+    try {
+        return await axios.delete(`${Url}/${id}`)
+    }
+    catch (error) {
+        console.log('Error while calling deleteUser API', error.message)
+    }
+}
